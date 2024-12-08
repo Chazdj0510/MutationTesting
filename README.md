@@ -10,34 +10,33 @@ Mutation testing evaluates the effectiveness of a test suite by introducing smal
     - Example: [3, 0, 2] → [3, 1, 2]
 
 2. Modify Arithmetic Operations
-
     - Replace one arithmetic operation (+, -, *, etc.) with another.
     - Example: Change addition in __add__ to subtraction.
 
 3. Introduce Redundant Code
+    - Add redundant statements or operations that do not affect functionality.
+    - Example: Insert x = x + 0.
 
-Add redundant statements or operations that do not affect functionality.
-Example: Insert x = x + 0.
-Remove Functionality
+4. Remove Functionality
+    - Remove key parts of a method.
+    - Example: Omit the evaluation logic in evaluate.
 
-Remove key parts of a method.
-Example: Omit the evaluation logic in evaluate.
-Change Loop Logic
+5. Change Loop Logic
+    - Alter loop conditions or iteration logic.
+    - Example: Replace for i in range(...) with for i in range(... - 1).
 
-Alter loop conditions or iteration logic.
-Example: Replace for i in range(...) with for i in range(... - 1).
-Alter Conditional Statements
+6. Alter Conditional Statements
+    - Modify conditions in if or for statements.
+    - Example: Change if coef == 0: to if coef != 0:.
 
-Modify conditions in if or for statements.
-Example: Change if coef == 0: to if coef != 0:.
-Swap Indexing
+7. Swap Indexing
+    - Change indexing order in lists.
+    - Example: Reverse the list in __str__ method.
 
-Change indexing order in lists.
-Example: Reverse the list in __str__ method.
-Alter Default Values
-
-Change default parameter values.
-Example: Change epsilon=1e-6 to epsilon=1e-3 in find_root_bisection.
+8. Alter Default Values
+    - Change default parameter values.
+    - Example: Change epsilon=1e-6 to epsilon=1e-3 in find_root_bisection.
+  
 ## Applied Mutations
 
 ## Results
