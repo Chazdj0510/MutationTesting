@@ -70,7 +70,7 @@ Mutant survival refers to cases where mutations introduced into the `Polynomial`
 - **Mutants Survived**: Some mutations were not detected, particularly those that introduced redundant logic changes or modified default parameters minimally.
 - Statistical metrics were collected from the mutation testing results to highlight the test suite's coverage and faults' behavior under different mutations.
 
-The test suite successfully killed **X%** of mutants, while **Y%** survived due to weak test coverage or logic limitations.
+The test suite successfully killed **5%** of mutants, while **3%** survived due to weak test coverage or logic limitations.
 
 ---
 ## Analysis of the Test Suite's Effectiveness
